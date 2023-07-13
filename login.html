@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página de login</title>
+</head>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça login e entre para um mundo novo de leitura!</h1>
+            <img src="img/drinking-coffee-animate8.svg" class="left-login-image" alt="girlandcoffee">
+        </div>
+            <div class="right-login">
+                <div class="card-login">
+                    <h1>LOGIN</h1>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" id="login" onchange="validateFields()" placeholder="Usuário" >
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha" id="senha">
+                </div>
+                <button class="btn-login" onclick="logar()">Entrar</button>
+                <p>Não tem uma conta? <a href="cadastro.html">Criar conta</a></p>
+                    </div>     
+            </div>
+    </div>
+    
+</body>
+</html>
